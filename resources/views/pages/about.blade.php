@@ -50,7 +50,7 @@
          </pre>
 
         <p>
-            Następnie możemy zaimportować plik bazy danych do nowo utworzonej bazy danych z katalogu /database/db/dump.db<br>
+            Następnie możemy zaimportować plik bazy danych do nowo utworzonej bazy danych z katalogu /database/db/guestbook_dd-mm-Y.sql<br>
 
             Wchodząc do katalogu „public” znajdującym się w katalogu głównym aplikacji powinniśmy zobaczyć działającą „Księgę gości”.<br>
 
