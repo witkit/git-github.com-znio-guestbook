@@ -18,24 +18,19 @@
             <li>Mbstring PHP Extension</li>
             <li>Tokenizer PHP Extension</li>
             <li>XML PHP Extension</li>
+            <li>MySQL 5.6.2X</li>
         </ul>
 
         <p>
-            Najprościej pobrać pakiet XAMMP zawierający podstawowe środowisko uruchomieniowe dla aplikacji internetowych używających technologii PHP i MySQL.<br>
-
-              Jest on do pobrania pod tym adresem : <pre>https://www.apachefriends.org/pl/index.html</pre>
-
-              Należy wybrać wersję oprogramowania zależnie od posiadanego systemu operacyjnego oraz aktualnej wersji PHP 5.6.24.<br>
-
-              Po zainstalowaniu na swoim komputerze pakietu XAMMP i uruchomieniu serwera Apache i MySQL należy pobrać aplikację z repozytorium git'a znajdującą się pod adresem :  <br>
+            Po uruchomieniu serwera Apache i MySQL należy pobrać aplikację z repozytorium git'a znajdującą się pod adresem :<br>
 
             <pre>https://github.com/witkit/git-github.com-znio-guestbook.git</pre>
 
-              Następnie przenieść rozpakowaną zawartość aplikacji do katalogu "htdocs" znajdującego się w zainstalowanym pakiecie XAMMP.<br>
+            Następnie przenieść rozpakowaną zawartość aplikacji do katalogu głównego serwera.<br>
 
-              Teraz należy utworzyć nową bazę danych i skonfigurować połączenie z nią w pliku : ".env”, znajdującym się w katalogu głównym aplikacji pod nazwą ".env.exemple".  <br>
+            Teraz należy utworzyć nową bazę danych i skonfigurować połączenie z nią w pliku : ".env”, znajdującym się w katalogu głównym aplikacji pod nazwą ".env.exemple".<br>
 
-            Przykładowa konfiguracja :  
+            Przykładowa konfiguracja :<br>
         </p>
 
         <pre>
@@ -50,13 +45,13 @@
          </pre>
 
         <p>
-            Następnie możemy zaimportować plik bazy danych do nowo utworzonej bazy danych z katalogu /database/db/guestbook_dd-mm-Y.sql<br>
+            Następnie możemy zaimportować plik bazy danych do nowo utworzonej bazy danych z katalogu : "/database/db/guestbook_dd-mm-Y.sql"<br>
 
-            Wchodząc do katalogu „public” znajdującym się w katalogu głównym aplikacji powinniśmy zobaczyć działającą „Księgę gości”.<br>
+            Po wykonaniu powzyższych czynności wchodzimy do katalogu „public” znajdującym się w katalogu głównym aplikacji powinniśmy zobaczyć działającą "Księgę gości”.<br>
 
             Aby uruchomić wysyłanie wiadomości z formularza kontaktowego konieczne będzie skonfigurowanie skrzynki odbiorczej np. na gmail.com lub wstępnie na mailtrap.io w pliku : ".env”.<br>
 
-            Oto przykładowa konfiguracja skrzynki odbiorczej :
+            Przykładowa konfiguracja skrzynki odbiorczej :<br>
         </p>
 
         <pre>
@@ -71,7 +66,7 @@
         </pre>
 
         <p>
-            Aby uruchomić aplikację bezpośrednio po wpisaniu adresu domeny w url należy skonfigurować virtualhost’a na serwerze.
+            Aby uruchomić aplikację bezpośrednio po wpisaniu adresu domeny w url należy skonfigurować virtual host’a na serwerze.
         </p>
 
         <p>
