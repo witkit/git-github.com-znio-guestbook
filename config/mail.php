@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'dd9ba1ba349b59@inbox.mailtrap.io', 'name' => 'Admin'],
+    'from' => ['address' => 'devtstapp@gmail.com', 'name' => 'Dev Test'],
 
     /*
     |--------------------------------------------------------------------------

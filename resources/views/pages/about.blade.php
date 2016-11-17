@@ -30,7 +30,7 @@
 
             Teraz należy utworzyć nową bazę danych i skonfigurować połączenie z nią w pliku : ".env”, znajdującym się w katalogu głównym aplikacji pod nazwą ".env.exemple".<br>
 
-            Przykładowa konfiguracja :<br>
+            Przykładowa konfiguracja :
         </p>
 
         <pre>
@@ -51,7 +51,7 @@
 
             Aby uruchomić wysyłanie wiadomości z formularza kontaktowego konieczne będzie skonfigurowanie skrzynki odbiorczej np. na gmail.com lub wstępnie na mailtrap.io w pliku : ".env”.<br>
 
-            Przykładowa konfiguracja skrzynki odbiorczej :<br>
+            Przykładowa konfiguracja skrzynki odbiorczej :
         </p>
 
         <pre>
