@@ -30,7 +30,7 @@ DB_USERNAME=guestbook 
 DB_PASSWORD=!x@c%Se#8$7*Cb^wE6&0
 ...
 </pre>
-         
+
 Następnie możemy zaimportować plik bazy danych do nowo utworzonej bazy danych z katalogu : "/database/db/guestbook_dd-mm-Y.sql"
 
 Po wykonaniu powzyższych czynności wchodzimy do katalogu „public” znajdującym się w katalogu głównym aplikacji powinniśmy zobaczyć działającą "Księgę gości”.
@@ -51,5 +51,9 @@ MAIL_ENCRYPTION=
 </pre>
 
 Aby uruchomić aplikację bezpośrednio po wpisaniu adresu domeny w url należy skonfigurować virtual host’a na serwerze.
+
+Działającą aplikację dla celów testowych można zobaczyć pod adresem :
+
+<pre>http://eldorado.hol.es/app_141116/public/</pre>
 
 [CDN]
