@@ -30,7 +30,7 @@ class CreatePostRequest extends Request
         }
 
         return [
-            'name' => 'required|alpha_dash|min:3',
+            'name' => 'required|min:3',
             'email' => $emailRule,
             'message' => 'required|min:6'
         ];
