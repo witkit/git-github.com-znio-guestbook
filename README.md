@@ -1,6 +1,6 @@
 # git-github.com-znio-guestbook
 
-Czego będziemy potrzebowali do uruchomienia aplikacji ?
+Wymagania do uruchomienia aplikacji ?
 
 * PHP >= 5.6.4
 * OpenSSL PHP Extension
@@ -9,7 +9,6 @@ Czego będziemy potrzebowali do uruchomienia aplikacji ?
 * Tokenizer PHP Extension
 * XML PHP Extension
 * MySQL 5.6.2X
-
 * git
 * composer
 
@@ -47,7 +46,7 @@ Uruchomienie aplikacji należy wejść do katalogu „public” znajdującym si�
 
 Uruchomienie wysyłania wiadomości z formularza kontaktowego konieczne będzie skonfigurowanie skrzynki odbiorczej np. na gmail.com lub wstępnie na mailtrap.io w pliku : ".env”.
 
-Przykładowa konfiguracja skrzynki odbiorczej :
+Przykładowa konfiguracja skrzynki odbiorczej:
 
 <pre>
 ...
