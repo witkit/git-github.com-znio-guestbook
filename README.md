@@ -41,9 +41,9 @@ DB_PASSWORD=!x@c%Se#8$7*Cb^wE6&0
 
 Import pliku bazy danych do nowo utworzonej bazy danych z katalogu : "/database/db/guestbook_dd-mm-Y.sql"
 
-Uruchomienie aplikacji należy wejść do katalogu „public” znajdującym się w katalogu głównym aplikacji.
+Aby uruchomić aplikację należy wejść do katalogu „public” znajdującego się w katalogu głównym aplikacji.
 
-Uruchomienie wysyłania wiadomości z formularza kontaktowego konieczne będzie skonfigurowanie skrzynki odbiorczej np. na gmail.com lub wstępnie na mailtrap.io w pliku : ".env”.
+Do uruchomienia wysyłania wiadomości z formularza kontaktowego konieczne będzie skonfigurowanie skrzynki odbiorczej np. na gmail.com lub wstępnie na mailtrap.io w pliku : ".env”.
 
 Przykładowa konfiguracja skrzynki odbiorczej:
 
