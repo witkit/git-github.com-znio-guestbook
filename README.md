@@ -10,50 +10,54 @@ Czego będziemy potrzebowali do uruchomienia aplikacji ?
 * XML PHP Extension
 * MySQL 5.6.2X
 
-Po uruchomieniu serwera Apache i MySQL należy pobrać aplikację z repozytorium git'a znajdującą się pod adresem :
+* git
+* composer
 
-<pre>https://github.com/witkit/git-github.com-znio-guestbook.git</pre>
+Uruchomić serwer Apache i MySQL należy pobrać aplikację z repozytorium git'a:
 
-Następnie przenieść rozpakowaną zawartość aplikacji do katalogu głównego serwera.
+<pre>
+git clone https://github.com/witkit/git-github.com-znio-guestbook.git
+cd git-github.com-znio-guestbook/
+composer update
+</pre>
 
-Teraz należy utworzyć nową bazę danych i skonfigurować połączenie z nią w pliku : ".env”, znajdującym się w katalogu głównym aplikacji pod nazwą ".env.exemple".
+Generowanie nowego klucza dla aplikacji:
 
-Przykładowa konfiguracja :
+<pre>
+php artisan key:generate
+</pre>
+
+Konfiguracja połączenia z bazą danych.
+Przykładowa konfiguracja:
 
 <pre>
 ...
-DB_CONNECTION=mysql 
-DB_HOST=127.0.0.1 
-DB_PORT=3306 
-DB_DATABASE=guestbook 
-DB_USERNAME=guestbook 
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=guestbook
+DB_USERNAME=guestbook
 DB_PASSWORD=!x@c%Se#8$7*Cb^wE6&0
 ...
 </pre>
 
-Następnie możemy zaimportować plik bazy danych do nowo utworzonej bazy danych z katalogu : "/database/db/guestbook_dd-mm-Y.sql"
+Import pliku bazy danych do nowo utworzonej bazy danych z katalogu : "/database/db/guestbook_dd-mm-Y.sql"
 
-Po wykonaniu powzyższych czynności wchodzimy do katalogu „public” znajdującym się w katalogu głównym aplikacji powinniśmy zobaczyć działającą "Księgę gości”.
+Uruchomienie aplikacji należy wejść do katalogu „public” znajdującym się w katalogu głównym aplikacji.
 
-Aby uruchomić wysyłanie wiadomości z formularza kontaktowego konieczne będzie skonfigurowanie skrzynki odbiorczej np. na gmail.com lub wstępnie na mailtrap.io w pliku : ".env”.
+Uruchomienie wysyłania wiadomości z formularza kontaktowego konieczne będzie skonfigurowanie skrzynki odbiorczej np. na gmail.com lub wstępnie na mailtrap.io w pliku : ".env”.
 
 Przykładowa konfiguracja skrzynki odbiorczej :
 
 <pre>
 ...
-MAIL_DRIVER=smtp 
-MAIL_HOST=mailtrap.io 
+MAIL_DRIVER=smtp
+MAIL_HOST=mailtrap.io
 MAIL_PORT=2525
- MAIL_USERNAME=ae959caa349b82 
-MAIL_PASSWORD=32a1cf46746c7b 
+MAIL_USERNAME=ae959caa349b82
+MAIL_PASSWORD=32a1cf46746c7b
 MAIL_ENCRYPTION=
 ...
 </pre>
 
 Aby uruchomić aplikację bezpośrednio po wpisaniu adresu domeny w url należy skonfigurować virtual host’a na serwerze.
-
-Działającą aplikację dla celów testowych można zobaczyć pod adresem :
-
-<pre>http://eldorado.hol.es/app_141116/public/</pre>
-
-[CDN]
