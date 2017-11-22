@@ -12,7 +12,7 @@ Wymagania do uruchomienia aplikacji ?
 * git
 * composer
 
-Uruchomić serwer Apache i MySQL należy pobrać aplikację z repozytorium git'a:
+Po uruchomieniu serwer Apache i MySQL należy pobrać aplikację z repozytorium git'a:
 
 <pre>
 git clone https://github.com/witkit/git-github.com-znio-guestbook.git
