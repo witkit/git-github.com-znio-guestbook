@@ -1,6 +1,6 @@
 # git-github.com-znio-guestbook
 
-Wymagania do uruchomienia aplikacji ?
+Wymagania do uruchomienia aplikacji?
 
 * PHP >= 5.6.4
 * OpenSSL PHP Extension
@@ -26,8 +26,7 @@ Generowanie nowego klucza dla aplikacji:
 php artisan key:generate
 </pre>
 
-Konfiguracja połączenia z bazą danych.
-Przykładowa konfiguracja:
+Przykładowa konfiguracja połączenia z bazą danych:
 
 <pre>
 ...
